@@ -39,7 +39,7 @@ public class Lab1 {
             }   
             in.close();
         } catch (Exception e) {
-            System.err.println("Помилка: " + e.getMessage());
+            System.err.println("Error: " + e.getMessage());
         }
     }
 }
